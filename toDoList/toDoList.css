@@ -1,0 +1,28 @@
+body {
+    font-family:  "Noto Sans TC", sans-serif;
+    background: linear-gradient(120deg, #a1c4fd, #c2e9fb);
+}
+/*以下為class*/
+.todo-container {
+
+}
+.input-area {
+
+}
+.clear {
+
+}
+/*以下為id*/
+#todo-input {
+
+}
+#add-btn {
+
+}
+#todo-list {
+
+}
+#clear-btn {
+
+}
+
