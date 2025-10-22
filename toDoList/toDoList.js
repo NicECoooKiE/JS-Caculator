@@ -6,11 +6,11 @@ const clearBtn = document.querySelector("#clear-btn");
 
 // 新增待辦
 addBtn.onclick = () =>{
-    const text = input.value.trim();
-    if (text === "") return;
+  const text = input.value.trim();
+  if (text === "") return;
 
-    const li = document.createElement("li");
-    li.textContent = text;
+  const li = document.createElement("li");
+  li.textContent = text;
   // 刪除按鈕
   const delBtn = document.createElement("button");
   delBtn.textContent = "✕";
@@ -35,5 +35,5 @@ addBtn.onclick = () =>{
 
 // 清除全部
 clearBtn.onclick = () => {
-  list.innerHTML = "";
+  list.textContent = "";
 };
